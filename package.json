@@ -8,7 +8,7 @@
   "main": "./src/index.ts",
   "scripts": {
     "dev": "tsc -w",
-    "link-cli": "pnpm unlink --global practice-cli && pnpm link --global"
+    "link-cli": "(pnpm unlink --global practice-cli || true) && pnpm link --global"
   },
   "keywords": [],
   "author": "",
